@@ -21,6 +21,7 @@
 		5B4BF1A019C1305000B22E5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4BF18219C1305000B22E5B /* UIKit.framework */; };
 		5B4BF1A819C1305000B22E5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4BF1A619C1305000B22E5B /* InfoPlist.strings */; };
 		5B4BF1AA19C1305000B22E5B /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4BF1A919C1305000B22E5B /* viewTutorialTests.m */; };
+		5B4BF1B519C1313000B22E5B /* ZZGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4BF1B419C1313000B22E5B /* ZZGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5B4BF1A519C1305000B22E5B /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		5B4BF1A719C1305000B22E5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4BF1A919C1305000B22E5B /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		5B4BF1B319C1313000B22E5B /* ZZGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZGrid.h; sourceTree = "<group>"; };
+		5B4BF1B419C1313000B22E5B /* ZZGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				5B4BF19019C1305000B22E5B /* Main.storyboard */,
 				5B4BF19319C1305000B22E5B /* ZZViewController.h */,
 				5B4BF19419C1305000B22E5B /* ZZViewController.m */,
+				5B4BF1B319C1313000B22E5B /* ZZGrid.h */,
+				5B4BF1B419C1313000B22E5B /* ZZGrid.m */,
 				5B4BF19619C1305000B22E5B /* Images.xcassets */,
 				5B4BF18519C1305000B22E5B /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4BF18F19C1305000B22E5B /* ZZAppDelegate.m in Sources */,
+				5B4BF1B519C1313000B22E5B /* ZZGrid.m in Sources */,
 				5B4BF18B19C1305000B22E5B /* main.m in Sources */,
 				5B4BF19519C1305000B22E5B /* ZZViewController.m in Sources */,
 			);
